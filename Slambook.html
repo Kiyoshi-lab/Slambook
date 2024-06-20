@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="kape_pa.css">
+   <title>Slambook</title>
+</head>
+<body>
+<div id="banner">
+    <h3>Slambook</h3>
+</div>
+<div id="navbar">
+    <ul>
+        <li><a href="#personal_info">Personal Information</a></li>
+        <li><a href="#favorites">Favorites</a></li>
+        <li><a href="#crush_form">Crush Form</a></li>
+    </ul>
+</div>
+<div id="content">
+    <div id="personal_info" class="box">
+        <h2>Personal Information</h2>
+        <form>
+            <label for="full_name">Full Name:</label>
+            <input type="text" id="full_name" name="full_name"><br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age"><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br><br>
+            <label for="address">Home Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+            <label for="hobby">Hobby:</label><br>
+            <textarea id="hobby" name="hobby" rows="4" cols="50"></textarea><br><br>
+        </form>
+    </div>
+    <div id="Favorites" class="box">
+        <h3>Favorites</h3>
+        <form>
+            <label for="color">Favorite Color:</label>
+            <input type="text" id="color" name="color"><br><br>
+            <label for="movie">Favorite Movie:</label>
+            <input type="text" id="movie" name="movie"><br><br>
+            <label for="food">Favorite Food:</label>
+            <input type="text" id="food" name="food"><br><br>
+            <label for="pet">Favorite Pet:</label>
+            <input type="text" id="pet" name="pet"><br><br>
+            <label for="music">Favorite Music:</label>
+            <input type="text" id="music" name="music"><br><br>
+            <label for="singer">Favorite Singer:</label>
+            <input type="text" id="singer" name="singer"><br><br>
+        </form>
+    </div>
+    <div id="Answer The Following Question" class="box">
+        <h3>Answer The Following Question</h3>
+        <form>
+            <label for="status">Status:</label>
+            <select id="status" name="status">
+                <option value="single">Single</option>
+                <option value="taken">Taken</option>
+            </select><br><br>
+            <label for="crush_name">Name of Crush:</label>
+            <input type="text" id="crush_name" name="crush_name"><br><br>
+            <label for="why_crush">Why did you crush on her/him:</label><br>
+            <textarea id="why_crush" name="why_crush" rows="4" cols="50"></textarea><br><br>
+            <label for="describe_crush">Describe your crush:</label><br>
+            <textarea id="describe_crush" name="describe_crush" rows="4" cols="50"></textarea><br><br>
+            <label for="message_from_crush">Message from your crush:</label><br>
+            <textarea id="message_from_crush" name="message_from_crush" rows="4" cols="50"></textarea><br><br>
+        </form>
+    </div>
+</div>
+<div id="footer">
+</div>
+</body>
+</html>
